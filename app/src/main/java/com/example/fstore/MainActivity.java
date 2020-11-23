@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setCustomObject() {
         Student student = new Student("Swapnil", "F", 19, 9.2f);
-        db.collection("users")
+        db.collection("Student")
                 .document("students")
                 .set(student);
 
