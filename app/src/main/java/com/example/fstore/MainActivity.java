@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void setDataOnFireStore() {
+    public void setDataOnFireStore() {
         HashMap<String, Object> user = new HashMap<>();
         user.put("name", "Swapnil Bhojwani");
         user.put("email", "swapnil.bhojwani@gmail.com");
